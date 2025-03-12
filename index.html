@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body {
+      background-color: hsl(47, 88%, 63%);
+      font-family: poppins, sans-serif;
+    }
+
+    .wrapper {
+      background-color: #FFF;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+      border-left: 1px #000 solid;
+      border-top: 1px rgb(152, 152, 152) solid;
+      width: 400px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .main-img {
+      border-radius: 10px;
+      width: 400px;
+    }
+
+   .main p:nth-of-type(1) {
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+   }
+
+    .instructor-div {
+      display: flex;
+    }
+
+    .instructor-img {
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+
+    .instructor-div p {
+      margin-top: 40px;
+      font-weight: bold;
+    }
+
+    .centered p {
+      width: 400px;
+      line-height: 1.5;
+      opacity: 0.7;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="wrapper">
+    <div class="main">
+      <img class="main-img" src="./assets/images/illustration-article.svg" alt="Illustration">
+      <p>Learning</p>
+      <p>Published 21 Dec 2023</p>
+    </div>
+
+      <div class="centered">
+        <h2>  HTML & CSS foundations</h2>
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+
+     <div class="instructor-div">
+      <img class="instructor-img" src="./assets/images/image-avatar.webp" alt="Greg hooper image">
+      <p>Greg Hooper</p>
+     </div>
+    </div>
+  </div>
+
+  <!-- Learning
+
+  Published 21 Dec 2023
+
+  HTML & CSS foundations
+
+  These languages are the backbone of every website, defining structure, content, and presentation.
+
+  Greg Hooper -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">The Whisperer</a>.
+  </div>
+</body>
+</html>
